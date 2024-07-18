@@ -3,6 +3,7 @@ import Link from "next/link"
 import { Loader } from "lucide-react"
 import { ClerkLoaded, ClerkLoading, UserButton } from "@clerk/nextjs"
 import {SidebarItem} from "@/components/SidebarItem"
+import Image from "next/image"
 
 type Props = {
   className?: string; 
@@ -13,7 +14,7 @@ export const Sidebar = ({className} : Props) =>{
     <div className={cn("flex  h-full lg:w-[256px] lg:fixed left-0 top-0 border-r-2 flex-col",className)}>
       <Link href="/learn">
         <div className="pt-8 pl-4 pb-7 flex items-center gap-x-3">
-          <img src="/mascot.svg" width={40} height={40} alt="logo" />
+          <Image src="/mascot.svg" width={40} height={40} alt="logo" />
           <h1 className="text-2xl font-extrabold text-green-600 tracking-wide">
             Lingo
           </h1>
