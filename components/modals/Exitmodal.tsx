@@ -24,10 +24,10 @@ export const ExitModal = () =>{
             <Image src="/mascot_sad.svg" width={80} height={80} alt="Mascot" />
           </div>
           <DialogTitle className="text-center text-2xl font-bold">
-            Wait don't go!
+            Wait don&apos;t go&excl;
           </DialogTitle>
           <DialogDescription className="text-center text-base">
-            You're about to leave the lesson. Are you sure?
+            You&apos;re about to leave the lesson. Are you sure?
           </DialogDescription>
         </DialogHeader>
         <DialogFooter className="mb-4">

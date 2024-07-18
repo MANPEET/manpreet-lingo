@@ -29,10 +29,10 @@ export const  HeartsModal= () =>{
             <Image src="/mascot_bad.svg" width={80} height={80} alt="Mascot" />
           </div>
           <DialogTitle className="text-center text-2xl font-bold">
-            You ran out of hearts!
+            You ran out of hearts&excl;
           </DialogTitle>
           <DialogDescription className="text-center text-base">
-            Get Pro for unlimited hearts, or purchase them in the store!
+            Get Pro for unlimited hearts, or purchase them in the store&excl;
           </DialogDescription>
         </DialogHeader>
         <DialogFooter className="mb-4">
