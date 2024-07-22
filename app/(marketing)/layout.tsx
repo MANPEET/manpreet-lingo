@@ -1,11 +1,11 @@
+import type { PropsWithChildren } from "react";
+
 import {Header} from "./header";
 import {Footer} from "./footer";
 
-type Props = {
-  children: React.ReactNode;
-}
 
-const Layout = ({ children }: Props) =>{
+
+const Layout = ({ children }: PropsWithChildren) =>{
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
