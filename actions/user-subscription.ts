@@ -9,7 +9,7 @@ import { absoluteUrl } from "@/lib/utils";
 const returnUrl = absoluteUrl("/shop");
 
 export const createStripeUrl = async () => {
-  const {userId} = auth()
+  const {userId} = await auth()
   const user = await currentUser()
 
   if(!userId) throw new Error("No user found")
